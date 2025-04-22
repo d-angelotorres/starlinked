@@ -23,5 +23,6 @@ int main()
         std::this_thread::sleep_for(std::chrono::milliseconds(500));
     }
 
+    std::cout << "[✔] Satellite system simulator ran successfully!" << std::endl;
     return 0;
 }
